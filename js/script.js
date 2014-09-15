@@ -28,7 +28,7 @@ $(document).ready(function(){
 
   function sway(){
     $(".box_close").animate({
-        left: "200px"
+        left: "400px"
       }, 2000, function(){
         $(".box_close").animate({
         left: "0px"
@@ -48,10 +48,8 @@ $(document).ready(function(){
       $(".box_close").remove();
       $(".hint").remove();
       $(".box_open").fadeIn();
-      $(".butterflies").fadeIn("slow");
       $(".step4").replaceWith("<h4>Butterflies!!!</h4>");
-      $("header").slideUp(1000);
-      grow();
+      $(".butterflies").show();
     }
   })
  

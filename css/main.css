@@ -11,6 +11,11 @@ header, h4 {
   text-align: center;
 }
 
-.box_close, .butterflies {
+.box_close, .box_open, .butterflies {
   position: absolute;
+  left:25%;
+}
+
+.butterflies {
+  z-index: 1;
 }

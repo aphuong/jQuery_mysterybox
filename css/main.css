@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica;
+  color: #CB5102;
+}
+
+header {
+  font-size: 20px;
+}
+
+header, h4 {
+  text-align: center;
+}
+
+.box_close, .butterflies {
+  position: absolute;
+}

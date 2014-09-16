@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica;
   color: #CB5102;
+  margin: 5%;
 }
 
 header {
@@ -14,8 +15,32 @@ header, h4 {
 .box_close, .box_open, .butterflies {
   position: absolute;
   left:25%;
+  width: 45%;
 }
 
 .butterflies {
   z-index: 1;
+  width: 35%;
+}
+
+.blue_butterfly {
+  width: 10%;
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  z-index: 1;
+  display: none;
+  -webkit-transition: left 1s, top 1s, right 1s, bottom 1s;
+  transition: left 1s, top 1s, right 1s, bottom 1s;
+}
+
+.garden {
+  width: 25%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.step5 {
+  display: none;
 }
